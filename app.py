@@ -1,5 +1,6 @@
 from PIL import Image
 import requests
+import os
 import streamlit as st
 from streamlit_lottie import st_lottie
 st.set_page_config(page_title='ba bum ba bum!!!!!', page_icon='🧑‍💻', layout = 'wide')
@@ -14,7 +15,10 @@ def styleLocal(fileName):
     with open(fileName) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html = True)
 
-styleLocal('style\style.css')
+# styleLocal('style\style.css')
+current_dir = os.path.dirname(os.path.abspath(__file__))
+style_path = os.path.join(current_dir, 'style', 'style.css')
+styleLocal(style_path)
 
 animation_gif = animate('https://lottie.host/eb0e538c-fdaf-41c7-9a25-01a1f6787f6e/kix6FcrWy9.json')
 profile_gif = animate('https://lottie.host/c16d3e93-c203-4b56-a9fe-c4d1c2db1606/AtmAZu87xX.json')
