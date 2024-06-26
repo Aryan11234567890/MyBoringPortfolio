@@ -23,9 +23,11 @@ styleLocal(style_path)
 animation_gif = animate('https://lottie.host/eb0e538c-fdaf-41c7-9a25-01a1f6787f6e/kix6FcrWy9.json')
 profile_gif = animate('https://lottie.host/c16d3e93-c203-4b56-a9fe-c4d1c2db1606/AtmAZu87xX.json')
 
-img_django_react = Image.open('images\djangoreact.png')
-img_django = Image.open('images\django.png')
+# img_django_react = Image.open('images\djangoreact.png')
+# img_django = Image.open('images\django.png')
 
+img_django_react = Image.open(os.path.join(current_dir, 'images', 'djangoreact.png'))
+img_django = Image.open(os.path.join(current_dir, 'images', 'django.png'))
 
 
 with st.container():
