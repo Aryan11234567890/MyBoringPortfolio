@@ -36,7 +36,7 @@ with st.container():
         st.subheader('Ayo fellas, It is me hehehehhe !!!!!')
         st.title('Aryan Shanker Saxena')
         st.write('Random coder who also plays games and touches grass!! I love Mathematics and Computer Science. Mostly I just love to solve things using Mathematics and Computers are the best way to express your mathematical fantasies and creations')
-        st.write('[MY RESUME!](https://drive.google.com/file/d/1XovX54eN_iQX2h55AK24qq7AHa_fqb5k/view?usp=sharing)')
+        st.write('[MY RESUME!](https://drive.google.com/file/d/1XovX54eN_iQX2h55AK24qq7AHa_fqb5k/view)')
     with rc:
         st_lottie(profile_gif, height=300, key="coding")
         
