@@ -28,6 +28,7 @@ profile_gif = animate('https://lottie.host/c16d3e93-c203-4b56-a9fe-c4d1c2db1606/
 
 img_django_react = Image.open(os.path.join(current_dir, 'images', 'djangoreact.png'))
 img_django = Image.open(os.path.join(current_dir, 'images', 'django.png'))
+img_devd = Image.open(os.path.join(current_dir, 'images', 'logo.png'))
 
 
 with st.container():
@@ -36,7 +37,7 @@ with st.container():
         st.subheader('Ayo fellas, It is me hehehehhe !!!!!')
         st.title('Aryan Shanker Saxena')
         st.write('Random coder who also plays games and touches grass!! I love Mathematics and Computer Science. Mostly I just love to solve things using Mathematics and Computers are the best way to express your mathematical fantasies and creations')
-        st.write('[MY RESUME!](https://drive.google.com/file/d/1XovX54eN_iQX2h55AK24qq7AHa_fqb5k/view)')
+        st.write('[MY RESUME!](https://drive.google.com/file/d/14sx4U8EP6dXFVAiVF9oI-T3R9mNTze19/view?usp=sharing)')
     with rc:
         st_lottie(profile_gif, height=300, key="coding")
         
@@ -80,6 +81,11 @@ with st.container():
         st.write('    ')
         st.write('    ')
         st.image(img_django_react)
+        st.write('    ')
+        st.write('    ')
+        st.write('    ')
+        st.write('    ')
+        st.image(img_devd)
     with textc:
         st.subheader('Forums and Discussions using Django')
         st.write('A Fullstack website which allows users to login or register, to start a discussion and others can also comment on it. Mini communities can be created within a specific topic called room. Django, oh boy, is an absolute life saver for this project. Backend is so easy to maintain. This made me fall in love with python. Django templates also helped me in eliminating JavaScript, phew. This project helped learning the architecture and the functioning of the Django framework.')
@@ -92,6 +98,22 @@ with st.container():
         st.write('    ')
         st.subheader('Notes App using React and Django')
         st.write('''A Fullstack website which allows users to create notes. Yeah, pretty basic I get it. But, I implemented various things in it. Sure, I had to work with JavaScript, but on the backend sided, I used JWT tokens, add some security features and protected routes. I also used the Django rest framework to build the APIs. I mean it is wayyyyyyyyy better than making APIs on Express. Moreover I used PostgreSQL as the database which provided on the Choreo platform. Where it is deployed as of now. To use this website, just contact me because Choreo turns off my database every hour since I'm a free user 😢😢. So I gotta Turn it on every hour. But hey, all in all this project helped me make APIs, Two different languages and their frameworks, Database maintainance, and Deployment. ''')
+        st.write('    ')
+        st.write('    ')
+        st.write('    ')
+        st.write('    ')
+        st.write('    ')
+        st.write('    ')
+        st.write('    ')
+        st.subheader('Online Coding Judge Platform using Django')
+        st.write('A Fullstack website which allows users to login or register, to code and test it against test cases and a get a verdict whether it is accepted or not. Users can improve their coding skills for free!!!!!!!!')
+        st.write('    ')
+        st.write('    ')
+        st.write('    ')
+        st.write('    ')
+        st.write('    ')
+        st.write('    ')
+        st.write('    ')
 with st.container():
     st.write('---')
     st.header('Hit me up! If you have some crazy Ideas or just contact even if you wanna mess with me xD....')
