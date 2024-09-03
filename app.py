@@ -106,7 +106,7 @@ with st.container():
         st.write('    ')
         st.write('    ')
         st.subheader('Online Coding Judge Platform using Django')
-        st.write('A Fullstack website which allows users to login or register, to code and test it against test cases and a get a verdict whether it is accepted or not. Users can improve their coding skills for free!!!!!!!!')
+        st.write('A Fullstack website which allows users to login or register, to code and test it against test cases and a get a verdict whether it is accepted or not. Users can improve their coding skills for free!!!!!!!! It is deployed on AWS. Discussions page is under testing and chatbot is under development and they are coming soon!!! ')
         st.write('    ')
         st.write('    ')
         st.write('    ')
